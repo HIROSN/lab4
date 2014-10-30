@@ -46,6 +46,11 @@ describe("Functional", function() {
   // function argument.
   // TODO: write a test for the custom method you wrote
   // in exercises/functional.js
-  it("should test the exercise you wrote yourself");
+  it("should test the exercise you wrote yourself", function() {
+    var testData = [ [ 1, 2 ],  [ 4, 10 ],  [ 15, 1, 3 ],  [ 0 ] ],
+        result = functional.largestNumsReduce(testData);
+
+    expect(result).to.eql([ 2, 10, 15, 0 ]);
+  });
 
 });
