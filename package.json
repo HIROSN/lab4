@@ -2,14 +2,33 @@
   "name": "lab4",
   "version": "0.0.0",
   "description": "OOP, functional programming, and tests",
+  "main": "exercises/functional.js",
+  "directories": {
+    "test": "tests"
+  },
   "dependencies": {
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-jshint": "^0.10.0",
     "lodash": "^2.4.1"
   },
   "devDependencies": {
     "chai": "^1.9.2",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
     "grunt-jscs": "^0.8.1",
-    "grunt-mocha-test": "^0.12.2"
-  }
+    "grunt-mocha-test": "^0.12.2",
+    "mocha": "^2.0.1"
+  },
+  "scripts": {
+    "test": "node_modules/grunt-cli/bin/grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HIROSN/lab4.git"
+  },
+  "author": "mel@codefellows.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HIROSN/lab4/issues"
+  },
+  "homepage": "https://github.com/HIROSN/lab4"
 }
